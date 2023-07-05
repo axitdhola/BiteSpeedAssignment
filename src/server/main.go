@@ -13,6 +13,5 @@ func main() {
 	router.POST("/identify", api.PostRequest)
 
 	url := fmt.Sprintf(":%v", constants.REST_PORT)
-	url = "localhost:8000"
 	router.Run(url)
 }
