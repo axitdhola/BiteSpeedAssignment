@@ -1,5 +1,5 @@
-# Resume Link
-<pre> https://drive.google.com/file/d/1tc9FfLHI3Av_ygS-GhkAMZhVIkayBI1j/view </pre>
+# Resume 
+Lin: https://drive.google.com/file/d/1tc9FfLHI3Av_ygS-GhkAMZhVIkayBI1j/view 
 
 # How To Run Code
 ## Local
