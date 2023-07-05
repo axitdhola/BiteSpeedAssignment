@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	api "github.com/axitdhola/BiteSpeedTask/src/api"
-	"github.com/axitdhola/BiteSpeedTask/src/constants"
+	api "github.com/axitdhola/BiteSpeedAssignment/src/api"
+	"github.com/axitdhola/BiteSpeedAssignment/src/constants"
 	"github.com/gin-gonic/gin"
 )
 

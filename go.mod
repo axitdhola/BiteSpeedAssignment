@@ -1,4 +1,4 @@
-module github.com/axitdhola/BiteSpeedTask
+module github.com/axitdhola/BiteSpeedAssignment
 
 go 1.18
 

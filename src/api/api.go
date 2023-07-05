@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/axitdhola/BiteSpeedTask/src/adapters"
-	"github.com/axitdhola/BiteSpeedTask/src/constants"
-	"github.com/axitdhola/BiteSpeedTask/src/model"
+	"github.com/axitdhola/BiteSpeedAssignment/src/adapters"
+	"github.com/axitdhola/BiteSpeedAssignment/src/constants"
+	"github.com/axitdhola/BiteSpeedAssignment/src/model"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 )
