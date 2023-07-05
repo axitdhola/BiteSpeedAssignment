@@ -1,4 +1,4 @@
-module github.com/Axit88/BiteSpeedTask
+module github.com/axitdhola/BiteSpeedTask
 
 go 1.18
 

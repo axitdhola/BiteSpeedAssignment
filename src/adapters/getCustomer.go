@@ -3,7 +3,7 @@ package adapters
 import (
 	"time"
 
-	"github.com/Axit88/BiteSpeedTask/src/model"
+	"github.com/axitdhola/BiteSpeedTask/src/model"
 )
 
 func GetCustomerRequest() *model.Customer {
