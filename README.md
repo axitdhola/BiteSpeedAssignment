@@ -3,7 +3,7 @@ Link: https://drive.google.com/file/d/1tc9FfLHI3Av_ygS-GhkAMZhVIkayBI1j/view
 
 # How To Run Code
 ## Local
-1. Change database credential in file src/constants
+1. Change database credential in file src/constants. Provide MySQL user, password, ports etc. credential in src/constants.
 2. In terminal go to src/server and run command <pre> go run main.go </pre>
 3. Hit the url http://localhost:8000/identify with POST request and pass the payload 
 
