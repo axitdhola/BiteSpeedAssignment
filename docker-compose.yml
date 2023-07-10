@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+
+  bitespeed:
+    build: . 
+    ports:
+      - "8000:8000"  
+    volumes:
+      - .:/app
+    command: go run src/server/main.go -b 0.0.0.0
+    depends_on:
+      - db
+
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_DATABASE=CustomerDB
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - '3306:3306'
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
+

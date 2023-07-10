@@ -1,7 +1,7 @@
 package constants
 
 const (
-	DatabaseHostURL  = "localhost:3306"
+	DatabaseHostURL  = "db:3306"
 	DatabaseUsername = "root"
 	DatabasePassword = "root"
 	DatabaseName     = "CustomerDB"

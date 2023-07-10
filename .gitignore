@@ -2,6 +2,4 @@
 /id_rsa
 /mysql_data
 **/.DS_Store
-**/Dockerfile
-**/docker-compose.yml
 /heilmdall.json
